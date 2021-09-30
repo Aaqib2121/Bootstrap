@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {scroll-behavior: smooth;}
+
+body{
+    font-size: 16px;
+    overflow-x: hidden;
+    padding-top: 60px;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+}
+
+.banner-text{
+    color: green;
+}
+
+.header-title{
+    color: green;
+}
+
+.bg-color{
+    background-color: white;
+    border-bottom: 3px solid #6bc449;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 400;
+    background-color: #6bc449;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.feature-listing{
+    height:300px;
+}
+
+.banner-img{
+    max-width: 500px;
+}
+
+.section-item .icon1 i{
+    margin-bottom: 1rem;
+    font-size: 60px;
+    color: #6bc449;
+}
+
+.about-text{
+    color: green;
+}
+
+.top-img{
+    width: 280px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.bottom-img{
+    width: 450px; 
+    margin-left: 100px ; 
+}
+
+.earn {
+    padding-top: 200px;
+}
+
+.earn-title{
+    color: green;
+    font-size: 40px;
+}
+
+/* .testimonial-review {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 23px 35px 40px;
+    position: relative;
+    text-align: left;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.owl-carousel .owl-item {
+    float: left;
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+}
+
+
+.owl-carousel .owl-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 30px;
+}
+
+.owl-controls .owl-page, .owl-controls .owl-buttons div {
+    cursor: pointer;
+}
+
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.owl-theme .owl-controls .owl-page .active span, .owl-theme .owl-controls .clickable .owl-page:hover span {
+    background: #6bc449;
+    border: 1px solid #fff;
+} */
+
+.testimonial{
+    margin: 0 70px 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.testimonial:before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #d37602;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: -52px;
+}
+
+.testimonial .description{
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #553e4e;
+    font-size: 16px;
+    color: #736d6d;
+    line-height: 30px;
+    position: relative;
+}
+
+.testimonial .description:before{
+    border-top: 8px solid #d37602;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial .description:after{
+    width: 19px;
+    height: 22px;
+    border: 1px solid #553e4e;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    margin-left: -2.5px;
+    position: absolute;
+    bottom: -17.5px;
+    left: 50%;
+    z-index: -1;
+    transform: rotate(45deg) translateX(-50%);
+}
+
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #d37602;
+    margin-bottom: 15px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d37602;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #736d6d;
+    text-transform: capitalize;
+}
+
+.owl-theme .owl-controls{ margin-top: 0; }
+.owl-theme .owl-controls .owl-page span{
+    width: 35px;
+    height: 15px;
+    background: #553e4e;
+    border-radius: 0;
+    opacity: 0.8;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.45);
+    transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #d37602;
+}
+
+/* @media only screen and (max-width: 479px) 
+{
+    .testimonial .description{ padding: 10px;}
+} */
