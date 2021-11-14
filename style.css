@@ -55,10 +55,12 @@ h1,h2,h3,h4,h5,h6{
 .feature-listing{
     height:300px;
 }
-
-.banner-img{
-    max-width: 500px;
+@media screen {
+    .banner-img{
+        max-width: 500px;
+    }
 }
+
 
 .section-item .icon1 i{
     margin-bottom: 1rem;
@@ -168,13 +170,13 @@ h1,h2,h3,h4,h5,h6{
     background: #6bc449;
     border: 1px solid #fff;
 }
-@media screen and (max-width: 990px){
+@media screen and (max-width: 360px){
     .testimonial{
         padding: 0;
     }
 }
 
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 360px){
     .owl-buttons{ bottom: 30%; }
 }
 
